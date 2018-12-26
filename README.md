@@ -11,9 +11,8 @@ also, learn about looping using this syntax
 .
 
 	for('initializer'; 'condition'; 'final expression') {
-    	'your_execute-wish)
+    	'your_execute_wish)
 	}
-
 
 
 
