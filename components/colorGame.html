@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>RGB Game</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./Colours-Rgb.ico">
+    <title> RGB Game</title>
     <link rel="stylesheet" href="colorGame.css">
 </head>
 <body>
     <div class="top">
-        <h1>the great <span id="colorDisplay"> RGB </span> guessing game</h1>
+        <h1>the great <br> <span id="colorDisplay"> RGB </span> <br> guessing game</h1>
     </div>
 
     <div class="mid">
-       <button>New Color</button>
-       <button>EASY</button>
-       <button>HARD</button>
-        <span id="message"></span>
+       <button class="selected" id="reset">New Color</button>
+       <span id="message"></span>
+       <button id="easy-btn" class="selected">EASY</button>
+       <button id="hard-btn" class="selected">HARD</button>
+        
     </div>
 
-    <div id="bottom">
+    <div id="container">
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
